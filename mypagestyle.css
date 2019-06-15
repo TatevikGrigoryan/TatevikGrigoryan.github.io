@@ -1,13 +1,27 @@
 body{
     margin: 10px;
+   }
+#header{
+    display: inline-block;
+    height: 50vh;
+    width: 100%;
 }
 #fon {
-    position: absolute;
     background-color: #9c27b09e;
     opacity: 0.5;
     height: 51vh;
-    width: 50%;
+    width: 49.1%;
     top: 1px;
+    position: absolute;
+}
+#aboutme{
+    width: 49.1%;
+    height: 50vh;
+    position: absolute;
+    right: 10px;
+    overflow: hidden;
+    background-color: antiquewhite;
+
 }
 #backimage {
     width :100%;
@@ -19,38 +33,50 @@ body{
     position: relative;
 }
 h1{
-    width: 100%;
+    width: 50%;
     top: 10vh;
-    position: absolute;
-    color: white;
+    margin: auto;
     text-align: center;
-   }
+}
 
 .aboutme{
-    display: inline-block;
-    float: left;
-    width: 30%;
-    margin: 5px;
+        width: 40%;
     border-bottom: 1px groove black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 40vh;
+    margin: 30px;
 }
 #aboutmeImg{
     display: block;
     margin: auto;
-    width:100px;
-    height:50px;
+    height: 50px;
 }
-a{float:right;
-margin: 10px}
+a{
+    float: right;
+    margin-right: 100px;
+       right: 5px;right: 5px;
+}
 
-p{
-    margin:20px;
+.parag{
+    text-align: center;
+    width: 40%;
+    right: 2px;
+    margin: auto;
+}
+#lists{
+    display: flex;
 }
 h2 {
-    text-align: center;
+text-align: center;
 }
 ul {
-    list-style-type: none;
+list-style-type: none;
+}
+.mark{
+height: 30px;
+width: 30px;
+float: right;
+margin-right: 10px;
+margin-top: 5px;
 }
 
